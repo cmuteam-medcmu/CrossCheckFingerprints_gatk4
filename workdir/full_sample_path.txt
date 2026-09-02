@@ -1,0 +1,6 @@
+/path/bam/CC0001_1_sorted.bam
+/path/bam/CC0001_2_sorted.bam
+/path/bam/CC0001_3_sorted.bam
+/path/bam/CC0001_4_sorted.bam
+/path/bam/CC0001_5_sorted.bam
+...
