@@ -172,7 +172,7 @@ One row per file pair:
 
 ### `inferred_group.csv`
 
-Each input file with an assigned _**INFERRED_GROUP**_ ID. Files sharing a _**INFERRED_GROUP**_ ID are inferred to come from the same
+Each input file with an assigned `INFERRED_GROUP` ID. Files sharing a `INFERRED_GROUP` ID are inferred to come from the same
 individual — compare this against your sample sheet to spot swaps.
 
 ---
