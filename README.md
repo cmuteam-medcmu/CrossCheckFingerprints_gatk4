@@ -166,7 +166,7 @@ One row per file pair:
 | Column | Meaning |
 |---|---|
 | `LEFT_FILE` / `RIGHT_FILE` | The two files being compared. |
-| `RESULT` | `EXPECTED_MATCH`, `UNEXPECTED_MATCH`, `EXPECTED_MISMATCH`, `UNEXPECTED_MISMATCH`, or `INCONCLUSIVE`. |
+| `RESULT` | `MATCH`, `MISMATCH`, or `INCONCLUSIVE`. |
 | `LOD_SCORE` | Log-odds that the two files are from the same individual. |
 | `LOD_SCORE_TUMOR_NORMAL` | Tumor-aware LOD, robust to loss of heterozygosity. |
 
