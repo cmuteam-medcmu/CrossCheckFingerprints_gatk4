@@ -20,31 +20,6 @@ Typical uses:
 
 ---
 
-## How it works
-
-```
-sample_full_path.txt        haplotype map (.txt)
-        │                          │
-        └──────────┬───────────────┘
-                   ▼
-        gatk CrosscheckFingerprints
-         (--CROSSCHECK_BY FILE)
-                   │
-                   ▼
-        raw crosscheck metrics
-                   │
-        ┌──────────┴───────────┐
-        ▼                      ▼
- cross_all_sample.csv    inferred_group.csv
- (all pairwise LODs)     (files grouped by donor)
-```
-
-The LOD score is the log-odds that two files come from the same individual. Positive LOD → same individual,
-negative LOD → different individuals. Grouping is done by linking together all file pairs whose LOD exceeds the
-match threshold.
-
----
-
 ## Requirements
 
 | Component | Notes |
